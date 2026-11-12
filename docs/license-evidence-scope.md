@@ -32,4 +32,4 @@ New first-party CI and maintenance files use LicenseRef-KOL-v1, with I-plusplus 
 
 The original documents already identify CC-BY-4.0 (CC BY 4.0). The license copy is from https://github.com/spdx/license-list-data/blob/main/text/CC-BY-4.0.txt.
 
-Minimum CI checks tracked UTF-8 files, JSON syntax, local Markdown links and declared license evidence using the pinned license-check-ci v0.1.0 artifact. Both jobs must succeed. It runs on pull requests, main pushes, merge groups and manual dispatch. It neither tests product functionality nor proves legal ownership, compatibility, certification or editorial readiness. Existing source bytes are preserved.
+Minimum CI checks tracked UTF-8 files, JSON syntax, local Markdown links and declared license evidence using a commit-pinned bootstrap action that resolves and verifies the latest stable license-check-ci release. Both jobs must succeed. It runs on pull requests, main pushes, merge groups and manual dispatch. It neither tests product functionality nor proves legal ownership, compatibility, certification or editorial readiness. Existing source bytes are preserved.
